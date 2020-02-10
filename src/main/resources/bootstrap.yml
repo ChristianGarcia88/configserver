@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ChristianGarcia88/repoValid
+server:
+  port: 2345
